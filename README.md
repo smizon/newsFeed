@@ -17,13 +17,13 @@ RestSoftware - https://insomnia.rest
 
 # API Methods
 Register Subscriber
- ``` POST localhost:8000/register 
+ ``` "/register" - Method("POST") ```
+ ```
   {
    "id": "3",
    "username": "User",
 	}
  ```
-
 
 Get Subscribers 
  ``` "/users" - Method("GET") ```
