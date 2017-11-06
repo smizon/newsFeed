@@ -77,7 +77,7 @@ func UserTopics(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-// GetNews - displays news topics for Subscriber (needs to display topic news)
+// GetNews - displays news topics for Subscriber
 func GetNews(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	t := ""
