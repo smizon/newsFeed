@@ -17,24 +17,24 @@ RestSoftware - https://insomnia.rest
 
 # API Methods
 Register Subscriber
-POST localhost:8000/register
+ ``` POST localhost:8000/register ```
 
 
 Get Subscribers
-"/users" - Method("GET")
+ ``` "/users" - Method("GET") ```
 
 Delete Subscriber
-"/users/{username}" Method("DELETE")
+ ``` "/users/{username}" Method("DELETE") ```
 
 Get User Details
-"/subscribe/{username}" Method("GET")
+``` "/subscribe/{username}" Method("GET") ```
 
 User Subscribe to Topic
-"/subscribe/{username}/{topic}" Methods("GET")
+``` "/subscribe/{username}/{topic}" Methods("GET") ```
 
 Get Topic News
-"/subscribed/{username}/topics" Method("GET")
+ ``` "/subscribed/{username}/topics" Method("GET") ```
 
 Publish News and Topic
-"/publish/{topic}/{news}" Methods("POST")
+ ``` "/publish/{topic}/{news}" Methods("POST") ```
 
